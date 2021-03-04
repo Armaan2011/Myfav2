@@ -1,0 +1,25 @@
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+li{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10x;
+}
+
+img{
+    border-radius: 50%;
+   text-align: center;
+    width: 1000px;
+}
+
+body{
+    text-align: center;
+ background: linear-gradient(#0f5ca8 0%,#ed2b21 100%);   
+}
