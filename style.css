@@ -5,6 +5,7 @@
     top: 10px;right: 30px;
     cursor: pointer;
     color: black;
+    position:fixed;
 }
 
 li{
@@ -13,13 +14,45 @@ li{
     padding-left: 10x;
 }
 
+#chesspic{
+    border-radius:50%;
+}
+
 img{
-    border-radius: 50%;
    text-align: center;
     width: 1000px;
 }
 
 body{
     text-align: center;
- background: linear-gradient(#0f5ca8 0%,#ed2b21 100%);   
+ background: linear-gradient(#0f5ca8 0%,#ed2b21 100%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#reviews{
+    width: 998px;
+    height 900px;
+    
+}
+
+#aboutchess{
+    width: 998px;
+    height:900px;
+}
+
+.cpiece{
+    width:100px;
+    height:300px;
+}
+
+#Magnus{
+    width:400px;
+        height:400px;
+    transition: transform 0.2s;   
+}
+#Magnus:hover{
+    transform: scale(0.9);
 }
